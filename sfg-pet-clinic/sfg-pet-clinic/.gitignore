@@ -155,3 +155,6 @@ Desktop.ini
 /pet-clinic-web/target/maven-archiver/pom.properties
 /release.properties
 /pet-clinic-web/target/surefire-reports/TEST-guru.springframework.sfgpetclinic.SfgPetClinicApplicationTests.xml
+/pet-clinic-data/pom.xml.releaseBackup
+/pet-clinic-web/pom.xml.releaseBackup
+/pom.xml.releaseBackup
