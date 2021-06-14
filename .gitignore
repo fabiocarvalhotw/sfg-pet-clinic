@@ -1,23 +1,161 @@
-# Compiled class file
-*.class
+######################
+# Project Specific
+######################
+/build/www/**
+/src/test/javascript/coverage/
+/src/test/javascript/PhantomJS*/
 
-# Log file
-*.log
+######################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
 
-# BlueJ files
-*.ctxt
+######################
+# SASS
+######################
+.sass-cache/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.factorypath
+/src/main/resources/rebel.xml
 
-# Package Files #
+# External tool builders
+.externalToolBuilders/**
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+######################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+######################
+# Visual Studio Code
+######################
+.vscode/
+
+######################
+# Maven
+######################
+/log/
+/target/
+
+######################
+# Gradle
+######################
+.gradle/
+/build/
+
+######################
+# Package Files
+######################
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
+*.db
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# Directories
+######################
+/bin/
+/deploy/
+
+######################
+# Logs
+######################
+*.log
+
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
+
+######################
+# Gradle Wrapper
+######################
+!gradle/wrapper/gradle-wrapper.jar
+
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jar
+
+######################
+# ESLint
+######################
+.eslintcache
+/HELP.md
+/pet-clinic-web/target/classes/application.properties
+/pet-clinic-data/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+/pet-clinic-data/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+/pet-clinic-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+/pet-clinic-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+/pet-clinic-web/target/surefire-reports/guru.springframework.sfgpetclinic.SfgPetClinicApplicationTests.txt
+/pet-clinic-data/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+/pet-clinic-data/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+/pet-clinic-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+/pet-clinic-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+/pet-clinic-web/target/pet-clinic-web-0.0.3.SNAPSHOT.jar.original
+/pet-clinic-data/target/maven-archiver/pom.properties
+/pet-clinic-web/target/maven-archiver/pom.properties
+/release.properties
+/pet-clinic-web/target/surefire-reports/TEST-guru.springframework.sfgpetclinic.SfgPetClinicApplicationTests.xml
+/pet-clinic-data/pom.xml.releaseBackup
+/pet-clinic-web/pom.xml.releaseBackup
+/pom.xml.releaseBackup
+/pet-clinic-web/target/.wro4j/buildContext.properties
